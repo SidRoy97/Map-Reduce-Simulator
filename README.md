@@ -1,14 +1,11 @@
-# CS231n: Convolutional Neural Networks for Visual Recognition - Assignment Solutions
+# Machine Learning with Graphs
 
-This repository contains my solutions to the assignments for Stanford's [CS231n](http://cs231n.stanford.edu/) "Convolutional Neural Networks for Visual Recognition" course (Spring 2020).
+Solutions to the assignments of the course __CS224W: Machine Learning with Graphs__ offered by Stanford University. The Winter-2021 offering of this class was chosen, as the assignments had more content.
 
-Assignments have been completed using both TensorFlow and PyTorch.
+3 assignments have been worked on consisting of 3 Colab Notebooks, each aiming to teach a different topic. Specifically:
 
-## Assignment #1: Image Classification, kNN, SVM, Softmax, Neural Network
-Q1-k-Nearest Neighbor Classifier;Q2-Training a Support Vector Machine;Q3-Implement a Softmax classifier;Q4-Two-Layer Neural Network;Q5-Higher Level Representations: Image Features
+- Colab 1: Training a vanilla Neural Network to learn the node embeddings of the KarateClub dataset
 
-## Assignment #2: Fully-Connected Nets, Batch Normalization, Dropout, Convolutional Nets
-Q1-Fully-connected Neural Network;Q2-Batch Normalization;Q3-Dropout;Q4-Convolutional Networks;Q5-PyTorch
+- Colab 4: Some DeepSnap functionalities for Heterogeneous Graphs, and an implementations of Heterogeneous GNN Convolutional/Attention models for node property prediction on the ACM(3025) dataset.
 
-## Assignment #3: Image Captioning with Vanilla RNNs, Image Captioning with LSTMs, Network Visualization, Style Transfer, Generative Adversarial Networks
-Q1-Image Captioning with Vanilla RNNs;Q2-Image Captioning with LSTMs;Q3-Network Visualization: Saliency maps, Class Visualization, and Fooling Images;Q4-Style Transfer;Q5-Generative Adversarial Networks
+- Colab 5: Neighbor Sampling
