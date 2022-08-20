@@ -1,19 +1,14 @@
-# Hadoop-Greenery-Comparison
+# CS231n: Convolutional Neural Networks for Visual Recognition - Assignment Solutions
 
-This small exercise was done do compare the amount of greenery between two places using the map and reduce concepts of HADOOP.
+This repository contains my solutions to the assignments for Stanford's [CS231n](http://cs231n.stanford.edu/) "Convolutional Neural Networks for Visual Recognition" course (Spring 2020).
 
-# How to use the files:
+Assignments have been completed using both TensorFlow and PyTorch.
 
-1. Generate an input.txt file containing the BGR values of each pixel in the image in the following way :
-72	62	72 <br/>
-54	43	54 <br/>
-46	35	50 <br/>
-41	31	49 <br/>
-...... <br/>
-(the BGR values seperated by tabs)
-      
-2. Store this input.txt in the HDFS.
+## Assignment #1: Image Classification, kNN, SVM, Softmax, Neural Network
+Q1-k-Nearest Neighbor Classifier;Q2-Training a Support Vector Machine;Q3-Implement a Softmax classifier;Q4-Two-Layer Neural Network;Q5-Higher Level Representations: Image Features
 
-3. The percentage of greenery of the comparison place is already calculated in the same method and hardcoded for comparison with any new      image (Can be done dynamically instead of hard coding the value.)
+## Assignment #2: Fully-Connected Nets, Batch Normalization, Dropout, Convolutional Nets
+Q1-Fully-connected Neural Network;Q2-Batch Normalization;Q3-Dropout;Q4-Convolutional Networks;Q5-PyTorch
 
-4. Use hadoop streaming to run the map.py and reduce.py specifying the input file path and the Output path in hdfs. 
+## Assignment #3: Image Captioning with Vanilla RNNs, Image Captioning with LSTMs, Network Visualization, Style Transfer, Generative Adversarial Networks
+Q1-Image Captioning with Vanilla RNNs;Q2-Image Captioning with LSTMs;Q3-Network Visualization: Saliency maps, Class Visualization, and Fooling Images;Q4-Style Transfer;Q5-Generative Adversarial Networks
