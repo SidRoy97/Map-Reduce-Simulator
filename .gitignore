@@ -1,8 +1,7 @@
+.vscode
+.python-version
+data
+__pycache__
+playground
 .DS_Store
-node_modules/
-dist/
-npm-debug.log
-*.swp
-.sass-cache
-*.css
-*.css.map
+test.sh
