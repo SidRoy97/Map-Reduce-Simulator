@@ -24,17 +24,12 @@ There is a hidden intermediate combine phase which gets all the Map function's o
 
 Reduce phase is the final step in MapReduce Algorithm. This is where the business logic or the core computation step lies. This happens in parallel or serial depending on the multiplicity of tasks.
 
-## Example
-
-![example](assets/arch-flow.png)
-
 **The text files are named as follows (n being total chunks):**
 1. On Initial Chunking: split_i_n
 2. Map Phase output: mapped_i_n
 3. Combine Phase output: combined_split_i_n
 4. Reduce Phase output: reduced_i_n
 
-![](assets/fi.png)
 ## How to run
 
 ### Dependencies
